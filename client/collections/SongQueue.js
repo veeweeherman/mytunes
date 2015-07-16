@@ -4,8 +4,13 @@
 var SongQueue = Songs.extend({
 
   initialize: function(){
-  	console.log('SongQueue initialize is working');
+  	console.log('SongQueue initialize is working on this :',this);
   	// return  
+  	// this.model.set('songQueue',currentSong)
+  },
+
+  render: function() {
+  	alert('SONG QUEUE RENDERS!')
   }
 
 });
